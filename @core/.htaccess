@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+    RewriteBase /
+    
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+    
+    # Turn mod_rewrite on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index\.php [NC]
+    RewriteRule ^ %1 [R=301,L]
+    
+
+    RewriteCond %{HTTP_HOST} ^rexoit.com [NC]
+    RewriteRule ^(.*)$ https://www.rexoit.com/$1 [L,R=301]
+	
+    RewriteEngine On
+    Redirect 301 /service/ecommerce-development https://www.rexoit.com/service/ecommerce-website-development
+    Redirect 301 /service/on-demand-app-development https://www.rexoit.com/service/on-demand-service-app-development
+    Redirect 301 /blog/best-software-app-development-company-in-bangladesh https://www.rexoit.com/blog/best-software-company-in-bangladesh
+    Redirect 301 /blog/best-software-development-company-in-bangladesh https://www.rexoit.com/blog/best-software-company-in-bangladesh
+    Redirect 301 /service/seo-and-digital-marketing https://www.rexoit.com/service/seo
+    Redirect 301 /service/web-development https://www.rexoit.com/service/web-development-service
+    Redirect 301 /service/web-design-and-development https://www.rexoit.com/service/web-development-service
+    Redirect 301 /service/web-development https://www.rexoit.com/service/web-development-service
+    Redirect 301 /service/web-design-development https://www.rexoit.com/service/web-development-service
+    Redirect 301 /service/seo https://www.rexoit.com/service/seo-service
+    Redirect 301 /service/ios-app-development https://www.rexoit.com/service/ios-app-development-service
+    Redirect 301 /service/custom-software-development https://www.rexoit.com/service/custom-software-development-service
+    Redirect 301 /service/mobile-app-development https://www.rexoit.com/service/mobile-app-development-service
+    Redirect 301 /service/game-development https://www.rexoit.com/service/game-development-service
+    Redirect 301 /service/content-writing https://www.rexoit.com/service/content-writing-service
+    Redirect 301 /service/graphic-design https://www.rexoit.com/service/graphic-design-service
+    Redirect 301 /service/android-app-development https://www.rexoit.com/service/android-app-development-service
+    Redirect 301 /service/saas-software-development https://www.rexoit.com/service/saas-software-development-service
+    Redirect 301 /service/software-development https://www.rexoit.com/service/software-development-service
+
+
+</IfModule>

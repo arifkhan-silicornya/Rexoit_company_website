@@ -1,0 +1,73 @@
+1. Heading Title
+2. Button
+3. Team
+4. Accordion
+5. Tab
+6. Post layout
+7. Logo Carousel
+8. Icon Box
+9. Image Hover
+10. Pricing Plan
+11. Progressbar
+12. Testimonial
+13. Gallery
+14. Video 
+15. Post list
+16. Button Group
+17. Countdown
+18. WooCommerce Product Grid
+19. Info Box
+20. Dual Color Headline
+21. Call TO Action
+22. Filter able Gallery
+23. Card
+24. Gradient Heading
+25. Image Compare
+26. Circle Skill bar
+27. Counter up
+28. Review
+29. Service 
+30. Portfolio grid add-on
+31. Logo Grid
+32. Team Member Carousel
+33. Testimonial Carousel
+34. Promo box ( Offer Box with a text image bg color and a button)
+35. Timeline
+36. Alert card ( alert danger/success/info/primary )
+37. Animated text (something like typed.js)
+38. Google map with ( info window )
+39. Image Accordion
+40. Post Carousel
+41. Product Carousel
+42. Particles js ( if possible )
+43. Animated gradient 
+44. Modal box
+45. Alert box( like sweet alert )
+46. Contact Widget ( can be more like WhatsApp/skype/messenger )
+47. Heading with multiple style
+48. Featured list
+49. Tooltips
+50. Post Card
+51. Post Gallery
+52. Business Hour(example available in element pack)
+53. Lite box
+54. Navbar
+55. Scrolling Image ( example available in element pack )
+56. Cookie Alert
+57. Dual Button (example Available in element pack)
+58. QR code 
+59. Table
+60. Data Table
+61. Video Player
+62. Instagram feed
+63. Twitter feed
+64. Facebook feed
+65. Chart.js all popular module include
+66. Carousel
+67. Flicker Image
+68. Mailchimp Form
+69. Social Share 
+70. Post Masonry
+71. WooCommerce Masonry
+72. Service Box
+73. Image Hover Effect

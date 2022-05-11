@@ -1,0 +1,4 @@
+[25-Feb-2022 13:29:11 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/hbarmqwo/rexoit.com/@core/app/Http/Controllers/FrontendController.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/hbarmqwo/rexoit.com/@core/app/Http/Controllers/FrontendController.php on line 68

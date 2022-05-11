@@ -1,0 +1,102 @@
+/* white you custom css code here. only css code will work */
+
+.ChatApp {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  width: 360px;
+  z-index: 1000000;
+  transform: translateY(-13%);
+  border-radius: 10px;
+}
+
+.ChatApp #ChatApp {
+  position: absolute;
+  bottom: 0px;
+  height: 550px;
+  width: 360px;
+  margin-bottom: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px;
+  animation: mymove4 400ms;
+}
+
+@keyframes mymove4 {
+  from {
+    height: 0px;
+    width: 0px;
+    bottom: -660px;
+  }
+  to {
+    height: 550px;
+    width: 360px;
+    bottom: 0;
+  }
+}
+.chat_head {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.chatIcon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  transform: translateY(-50%);
+  z-index: 1000000;
+  border: 0;
+}
+
+.chatIcon:hover {
+  transform: translateY(-60%);
+}
+
+.inputDiv {
+  position: absolute;
+  bottom: 0;
+  border: 0 !important;
+  padding-left: 2px;
+}
+.inputDiv input[type="text"] {
+  border-color: rgba(0, 0, 0, 0.3) !important;
+  border-left: 0.1px solid rgba(0, 0, 0, 0.3) !important;
+  border-right: 0.1px solid rgba(0, 0, 0, 0.3) !important;
+  border-radius: 30px;
+  height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85% !important;
+}
+.inputDiv input[type="text"]::placeholder {
+  color: black !important;
+}
+.inputDiv input[type="text"]:focus,
+.inputDiv input[type="text"]:active {
+  outline: none;
+  border: 0.1px solid rgba(0, 0, 0, 0.3) !important;
+}
+.sender {
+  position: relative;
+  left: 0;
+}
+.sender_chat_box {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.receiver {
+  position: relative;
+  right: 0;
+}
+.receiver_chat_box {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 15px;
+}
+.file_btn {
+  border: 0;
+  border-bottom-right-radius: 15px;
+}
